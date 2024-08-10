@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="tr" style="background-color: #212530;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRC 10205</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css"
+    rel="stylesheet"
+    />
+</head>
+<body style="background-color: #212530;">
+    
+    {% include "partials/_navbar.html" %}
+
+    <section>
+        <div class="frc-main-container pt-5">
+            <div class="container text-center">
+                <h1 class="text-white">FRC NEDİR?</h1>
+                
+                <img style="height: 60vh; width: 60%;"   class="frc-image pt-5" src="{% static 'img/FRC_pist.webp' %}"  alt="FRC-image">
+                <div style="width: 60%;" class="frc-metin text-white m-auto pt-5">
+                    <p>FIRST Robotics Competition (FRC), dünya genelinde lise öğrencileri için düzenlenen prestijli bir robotik yarışmasıdır. 14-18 yaş grubundaki gençlerin katılımına açık olan bu etkinlik, öğrencilere robotik ve mühendislik dünyasında kendilerini geliştirme fırsatı sunar. Her yıl Ocak ayında belirlenen tema doğrultusunda, takımlar zorlu görevleri yerine getirebilecek yetenekli robotlar tasarlamak ve inşa etmek için bir araya gelir.</p>
+                    <p>FRC, katılımcılara sadece teknik becerilerini geliştirme olanağı sunmakla kalmaz, aynı zamanda öğrencileri endüstri profesyonelleri, mentorlar ve öğretmenlerle bir araya getirerek onları gerçek dünyaya hazırlayan kapsamlı bir deneyim sağlar. "Inspiration through Innovation" (Yenilikle İlham) mottosuyla öne çıkan bu yarışma, farklı disiplinlerden öğrencilerin birlikte çalışmasını ve her birinin benzersiz yeteneklerini ortaya koymasını teşvik eder.</p>
+                    <p>Bu kapsamda, FRC sadece robot yapmaktan ibaret bir yarışma değildir. Öğrenciler, sponsorluk yönetiminden tasarım ve üretime, yazılım geliştirmeden proje yönetimine kadar birçok alanda deneyim kazanır. Ekipler, büyük bir işbirliği içinde çalışarak, zaman kısıtlamaları altında yaratıcı ve etkili çözümler üretmeyi öğrenirler.</p>
+                    <p>FRC, öğrencilerin liderlik, takım çalışması, stratejik düşünme ve etkili iletişim gibi önemli yetkinliklerini geliştirmelerine yardımcı olur. Bu yarışma, gençleri STEM (Bilim, Teknoloji, Mühendislik, Matematik) alanlarında kariyer yapmaya teşvik eden güçlü bir platformdur. Ayrıca, katılımcılar kendilerini daha geniş bir topluluğun parçası olarak hisseder ve küresel ağlar oluşturma fırsatına sahip olurlar.</p>
+                    <p>FIRST Robotics Competition, yalnızca bir yarışma olmanın ötesinde, gençlerin bilim ve teknoloji alanlarına olan tutkusunu artıran, onları geleceğin yenilikçileri ve liderleri olarak hazırlayan bir deneyim sunar. Öğrenciler, hayal güçlerini kullanarak teknolojinin sınırlarını zorlar ve dünya genelinde unutulmaz bir maceraya atılırlar.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <footer class="mt-5" >
+
+        <hr>
+        {% include "partials/_footer.html" %}
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js"
+    ></script>
+
+    <script src="{% static 'script.js' %}"></script>
+</body>
+</html>

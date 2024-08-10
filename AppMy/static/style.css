@@ -1,0 +1,109 @@
+/* Reset */
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #212530;
+    color: aliceblue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #212530;
+}
+
+
+/* !Navbar */
+
+.MyNavbar {
+    background-color: black; /* Arka planı siyah yapar */
+}
+
+.MyNavbar .nav-link {
+    color: white !important; /* Linklerin rengini beyaz yapar */
+}
+
+.MyNavbar .nav-item {
+    font-size: large;
+}
+
+.MyNavbar .nav-link.active {
+    color: white !important; /* Aktif linkin rengini beyaz yapar */
+}
+
+.MyNavbar .navbar-brand {
+    color: white !important; /* Navbar markasının rengini beyaz yapar */
+}
+
+.MyNavbar .navbar-nav .nav-item {
+    margin: 0 15px; /* Her öğe arasına 15px boşluk ekler */
+}
+
+.MyNavbar .container-fluid {
+    padding-left: 30px; /* Sol boşluk ekler */
+    padding-right: 30px; /* Sağ boşluk ekler */
+}
+
+
+
+
+
+/* !Carousel */
+
+.Carousel img{
+    height: 60vh;
+    object-fit: cover; /* Resimin boyutunu ayarlar resim bozulursa orjinal boyutuna ayarlayın */
+}
+
+
+
+/* !Section */
+
+section {
+    background-color: #212530;
+}
+
+
+
+
+/* !Hakkımızda */
+
+
+/* ? DÜZELTİLECEK : RESİMLER HER ZAMAN RESPONSİVE İÇİN HK KLASININ İÇİNDE İLK KLASTA OLMALIDIR HER BİR RESİM DAHA SONRASINDA İSTENİLEN KONUMA MANUEL YERLEŞTİRİLMELİDİR. !!! */
+
+
+.hakkimizda-container {
+    color: aliceblue;
+    padding: 50px 200px 200px 200px; /* Yukarı sol sağ asagı*/
+}
+
+.hakkimizda-container .hk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.hakkimizda-container .left {
+    float: left;
+    width: 45%;
+}
+
+
+.hakkimizda-container .right {
+    float: right;
+    width: 45%;
+}
+
+
